@@ -25,7 +25,19 @@ It is possible to re-lock the bootloader.
 - The MiUnlock tool
 - Time: 72 hours
 - A PC with Fastboot drivers installed
--Android platform-sdk-
+- Android platform-sdk-
 
 ## Method
-1. Turn on 
+*Prepare the phone*
+Put the sim in, and turn it on.
+Activate Developer Options.
+In developer options, activate USB Debugging Mode.
+In developer options, go to Mi Unlock device. Then register your phone. This is the step that requires a SIM present in the phone.
+
+*Prepare the PC*
+Download the Mi Unlock tool. 
+Install fastboot drivers for the phone. On Windows Go to 'Device Manager', select the 'Android' device that has a 'Caution' icon next to it if it isnt properly installed. Select option to update drivers yourself by location, and point to the drivers in the Mi Unlock tool driver folder. The device should get recognized as Android Bootloader Interface. To verify, running 'fastboot devices' should return the name of the devices connected.
+
+*Run the unlock tool*
+Run the Mi Unlock tool and follow the instructions on it.
+You can put the device into fastboot mode by turning it off, then holding VolDown+Power for a couple of seconds. In fastboot mode, the device screen shorts an Android mascot, and the words 'fastboot'
