@@ -1,12 +1,12 @@
 # pocophone-guide
-A journey with the pocophone f1
+A journey with the Pocophone F1
 
 ## Step 1: Unlock the bootloader
 
 ### Why
-In order to flash through fastboot (fastboot roms or recovery roms) you need to unlock the bootloader.
-In order to debloat the phone you need to unlock the bootloader.
-In order to install custom recovery, you need to unlock the bootloader.
+- In order to flash through fastboot (fastboot roms or recovery roms) you need to unlock the bootloader.
+- In order to debloat the phone you need to unlock the bootloader.
+-  order to install custom recovery, you need to unlock the bootloader.
 
 ### Affects
 Xiaomi will honor the warranty even with an unlocked bootloader. 
@@ -24,7 +24,7 @@ It is possible to re-lock the bootloader.
 - The MiUnlock tool
 - Time: 72 hours
 - A PC with Fastboot drivers installed
-- Android platform-sdk-
+- Android platform-sdk-tools (adb and fastboot)
 
 ## Method
 
